@@ -1,0 +1,25 @@
+# Python
+__pycache__/
+*.py[cod]
+*.pyo
+.venv/
+venv/
+env/
+
+# Project-specific — never commit these
+*.db
+*.log
+uploads/
+.env
+
+# Demo binaries — generate via script, don't track in git
+demo_model.pkl
+demo_dataset.csv
+
+# IDEs
+.vscode/settings.json
+.idea/
+
+# OS
+.DS_Store
+Thumbs.db

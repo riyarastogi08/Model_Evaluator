@@ -1,0 +1,6 @@
+streamlit
+pandas
+plotly
+requests
+scikit-learn
+fpdf2
