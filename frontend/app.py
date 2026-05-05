@@ -10,7 +10,9 @@ import time
 import plotly.express as px
 import plotly.graph_objects as go
 
-API_BASE_URL = "http://localhost:8000/api/v1"
+import os
+
+API_BASE_URL = os.getenv("API_URL", "http://localhost:8000/api/v1")
 
 st.set_page_config(page_title="AI Robustness Evaluator", page_icon="🤖", layout="wide")
 
